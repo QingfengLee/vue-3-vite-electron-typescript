@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+      "composite": true,
+      "target": "ESNext",
+      "module": "CommonJS",
+      "outDir": "../electron-js",
+      "removeComments": true,
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "strict": true,
+      "skipLibCheck": true
+  },
+  "include": ["./**/*.ts"]
+}
